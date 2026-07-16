@@ -27,7 +27,7 @@ The figures below summarize the performance benchmarks (lower is better).
 
 <img src="imgs/3_forward-and-backward-compiled.jpg" width="500" alt="Forward and backward pass after compilation">
 
-
+<!-- 
 ## Bonus: Efficient Multi-Head Attention Implementations
 ---
 
@@ -48,4 +48,4 @@ The figures below summarize the performance benchmarks (lower is better).
       <img src="imgs/3_forward-and-backward-compiled.jpg" width="100%" alt="Forward and backward pass after compilation">
     </td>
   </tr>
-</table>
+</table> -->
