@@ -13,10 +13,10 @@
 The figures below summarize the performance benchmarks (lower is better).
 
 **Forward pass only**
-![](ch03/imgs/1_forward-only.jpg)
+![](imgs/1_forward-only.jpg)
 
 **Forward and backward pass**
-![](ch03/imgs/2_forward-and-backward.jpg)
+![](imgs/2_forward-and-backward.jpg)
 
 **Forward and backward pass after compilation**
-![](ch03/imgs/3_forward-and-backward-compiled.jpg)
+![](imgs/3_forward-and-backward-compiled.jpg)
