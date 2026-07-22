@@ -8,11 +8,11 @@ The goal of this repo is to demystify generative AI by building, pre-training, a
 
 ## Repository Roadmap & Progress
 
-- [ ] **Chapter 1: Understanding Large Language Models**
+- [x] **Chapter 1: Understanding Large Language Models**
   - Conceptual overview of LLM architectures and applications.
-- [ ] **Chapter 2: Working with Text Data**
+- [x] **Chapter 2: Working with Text Data**
   - Implement text tokenization, Byte-Pair Encoding (BPE), and token/positional embeddings.
-- [ ] **Chapter 3: Coding Attention Mechanisms**
+- [x] **Chapter 3: Coding Attention Mechanisms**
   - Build scaled dot-product attention, causal masks, and multi-head attention blocks.
 - [ ] **Chapter 4: Implementing a GPT Model from Scratch to Generate Text**
   - Assemble the complete decoder-only transformer architecture and generate text autoregressively.
@@ -35,7 +35,6 @@ The goal of this repo is to demystify generative AI by building, pre-training, a
 
 ## Project Structure
 
-*(Modify this section as your file structure evolves chapter-by-chapter)*
 ```text
 ├── ch02-text-data/                 # Chapter 2: Tokenization & Embedding Pipelines
 │   ├── 01-main.ipynb               # Core text preprocessing, vocabulary setup, & BPE embeddings
