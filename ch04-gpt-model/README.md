@@ -9,10 +9,10 @@
 ## Bonus Sections
 ---
 
-1. Performance Analysis: Floating Point Operations per Second (FLOPs)
-2. Key-Value (KV) Cache
-3. Grouped-Query Attention (GQA)
-4. Multi-Head Latent Attention (MLA)
+1. [Performance Analysis: Floating Point Operations per Second (FLOPs)](02-bonus_flops-analysis.ipynb)
+2. [Key-Value (KV) Cache](03-bonus_kv-cache.ipynb)
+3. [Grouped-Query Attention (GQA)](04-bonus_gqa.ipynb)
+4. [Multi-Head Latent Attention (MLA)]
 5. Sliding Window Attention (SWA)
 6. Mixture of Experts (MoE)
 7. Gated DeltaNet for Linear Attention
