@@ -36,25 +36,6 @@ The goal of this repo is to demystify generative AI by building, pre-training, a
 ## Project Structure
 
 ```text
-├── ch02-text-data/                 # Chapter 2: Tokenization & Embedding Pipelines
-│   ├── 01-main.ipynb               # Core text preprocessing, vocabulary setup, & BPE embeddings
-│   ├── 02-bonus_compare-bpe-...    # Performance & vocabulary footprint analysis: BPE vs Tiktoken
-│   ├── 03-bonus_embedding-vs-...   # Mathematical proof: Equivalence of Embedding layers & One-Hot Linear weights
-│   ├── 04-bonus_bpe-from-scr...    # Minimalist, educational walkthrough of Byte-Pair Encoding logic
-│   └── 05-bonus_bpe-from-scr...    # Robust, production-style implementation of custom BPE from scratch
-├── ch03-attention-mechanisms/      # Chapter 3: Deep Dive into Attention Hooks
-│   ├── 01-main.ipynb               # Step-by-step implementation of Causal Multi-Head Attention
-│   ├── 02-bonus_efficient-mu...    # Speed benchmarking: PyTorch SDPA, FlashAttention, & manual implementations
-│   └── 03-bonus_understandin...    # Memory management: Registering non-trainable state arrays using PyTorch buffers
-├── ch04-gpt-model/                 # Chapter 4: Assembling the Full Decoder Architecture
-│   ├── 01-main.ipynb               # Configures GPT-style transformer blocks & autoregressive generation
-│   ├── 02-bonus_flops-analyi...    # Compute efficiency: Floating Point Operations (FLOPs) scaling analysis
-│   ├── 03-bonus_kv-cache.ipynb     # Generation speedup: Storing past Keys & Values to avoid redundant attention recalculations
-│   ├── 04-bonus_gqa.ipynb          # Modern scaling: Grouped-Query Attention (LLaMA/Mistral style) for reduced memory footprint
-│   └── 05-bonus_mla.ipynb          # DeepSeek innovation: Multi-head Latent Attention implementation for extreme cache compression
-```
-
-```text
 ├── archive/                                           # Archived or superseded notebooks
 ├── ch02-text-data/                                    # Chapter 2: Tokenization & Embedding Pipelines
 │   ├── 01-main.ipynb                                  # Core text preprocessing, vocabulary setup, & BPE embeddings
